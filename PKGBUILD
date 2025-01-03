@@ -15,7 +15,7 @@ source=("$url/releases/download/v$pkgver/bwrap-${CARCH}")
 sha256sums=('SKIP')
 
 package() {
-  install -Dm755 "bwrap-${CARCH}" "${pkgdir}/var/RunDir/static/bwrap"
+  install -Dm755 "bwrap-${CARCH}" "${pkgdir}/var/RunDir/sharun/bin/bwrap"
   mkdir -p "${pkgdir}/usr/bin"
-  ln -sr "${pkgdir}/var/RunDir/static/bwrap" "${pkgdir}/usr/bin/bwrap"
+  ln -sr "${pkgdir}/var/RunDir/sharun/bin/bwrap" "${pkgdir}/usr/bin/bwrap"
 }
