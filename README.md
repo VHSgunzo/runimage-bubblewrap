@@ -1,2 +1,2 @@
 # runimage-bubblewrap
-Patched bubblewrap for RunImage container
+Patched [bubblewrap](https://github.com/VHSgunzo/bubblewrap-static) for [RunImage](https://github.com/VHSgunzo/runimage) container.
