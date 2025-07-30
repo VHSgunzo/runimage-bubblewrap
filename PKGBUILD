@@ -1,7 +1,7 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
 pkgname='runimage-bubblewrap'
-pkgver='0.11.0'
+pkgver='0.11.0.1'
 pkgrel='1'
 pkgdesc='Patched bubblewrap for RunImage container'
 url='https://github.com/VHSgunzo/bubblewrap-static'
